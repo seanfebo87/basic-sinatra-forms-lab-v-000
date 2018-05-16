@@ -7,7 +7,7 @@ get "/newteam" do
 end
 
 post "/newteam " do 
-  @name = params["name"]
+  @team_name = params["name"]
   @coach = params["coach"]
   @pg = params["pg"]
   @sg = params["sg"]
