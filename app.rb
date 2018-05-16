@@ -7,5 +7,5 @@ get "/newteam" do
 end
 
 post "/newteam " do 
-  
+  @name = params[:]
 end
